@@ -1,0 +1,8 @@
+com.almeros.android.multitouch.gesturedetectors
+com.mapbox.mapboxsdk
+com.mapbox.mapboxsdk.annotations
+com.mapbox.mapboxsdk.constants
+com.mapbox.mapboxsdk.exceptions
+com.mapbox.mapboxsdk.geometry
+com.mapbox.mapboxsdk.utils
+com.mapbox.mapboxsdk.views

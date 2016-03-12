@@ -1,0 +1,18 @@
+﻿<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node path="/api/package[@name='com.almeros.android.multitouch.gesturedetectors']/class[@name='TwoFingerGestureDetector']" />
+    <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.location']/class[@name='LocationServices']" />
+
+<!--	Fixes are done in fixups: -->
+    <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='MarkerOptions']/method[@name='getMarker']" />
+    <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='MarkerOptions']/method[@name='getThis']" />
+
+    <attr path="/api/package[@name='com.mapbox.mapboxsdk']" name="managedName">MapBoxSDK</attr>
+
+</metadata>
